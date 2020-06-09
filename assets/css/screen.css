@@ -271,4 +271,8 @@ html,
   .gh-paginator .page-number {
     visibility: hidden;
   }
+
+  .gh-card-meta time {
+    display: block;
+  }
 }
