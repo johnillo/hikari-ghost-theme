@@ -92,10 +92,16 @@ html,
 
 .gh-card-meta {
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   line-height: 1.2em;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.gh-card-meta time {
+  display: inline-block;
+  opacity: .7;
+  margin-right: 0.5em;
 }
 
 .gh-card-meta:hover {
