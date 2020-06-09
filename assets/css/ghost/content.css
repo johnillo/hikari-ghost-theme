@@ -106,6 +106,7 @@
 .gh-content > ol,
 .gh-content > dl {
   padding-left: 1.9em;
+  line-height: 1em;
 }
 
 .gh-content hr {
@@ -119,12 +120,13 @@
 .gh-content blockquote {
   position: relative;
   font-style: italic;
+  padding-left: 1em;
 }
 
 .gh-content blockquote::before {
   content: "";
   position: absolute;
-  left: -1.5em;
+  left: 0;
   top: 0;
   bottom: 0;
   width: 0.3rem;
@@ -162,7 +164,7 @@
   }
 
   .gh-content blockquote::before {
-    left: -4vw;
+    left: 0;
   }
 }
 
