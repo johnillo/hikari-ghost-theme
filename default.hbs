@@ -75,10 +75,20 @@
           var ratio = width / height;
           container.style.flex = ratio + ' 1 0%';
         });
+
         $(document).ready(function () {
           var $postContent = $(".gh-content");
           $postContent.fitVids();
+          addLinksToPostImages();
         });
+
+        // add links to images in posts/pages for viewing
+        function addLinksToPostImages() {
+          var images = $('.post img');
+          for (i = 0; i < images.length; i++) {
+            $(images[i]).wrap('<a href="' + $(images[i]).attr('src') + '">');
+          }
+        }
       </script>
     {{/is}}
     {{ghost_foot}}

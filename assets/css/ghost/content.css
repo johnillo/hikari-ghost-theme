@@ -140,6 +140,19 @@
   margin: 1em 0;
 }
 
+.gh-post-authors {
+  margin-top: 1.5em;
+}
+
+.gh-post-authors a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.gh-post-authors a:hover {
+  text-decoration: underline;
+}
+
 .gh-post-tags .tag {
   color: white;
   margin: 0.2em 0.2em;

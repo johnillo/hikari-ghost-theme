@@ -14,8 +14,9 @@
       {{content}}
     </div>
     <footer class="gh-footer gh-canvas">
+      <hr/>
       <div class="gh-post-authors">
-        <b>Author:</b> {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{#unless @last}},&nbsp;{{/unless}}{{/foreach}}
+        Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{#unless @last}},&nbsp;{{/unless}}{{/foreach}}
       </div>
       <div class="gh-post-tags">
         {{#foreach tags}}<a class="tag" href="{{url}}">{{name}}</a>{{/foreach}}
