@@ -2,10 +2,6 @@
     "name": "hikari-ghost-theme",
     "description": "Minimalist Ghost theme.",
     "version": "1.0.0",
-    "engines": {
-        "ghost": ">=3.0.0",
-        "ghost-api": "v3"
-    },
     "license": "MIT",
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg"
@@ -48,6 +44,7 @@
         "gulp-util": "3.0.8",
         "gulp-watch": "5.0.1",
         "gulp-zip": "5.0.1",
+        "lodash.template": "^4.5.0",
         "postcss-color-function": "4.1.0",
         "postcss-custom-properties": "9.1.1",
         "postcss-easy-import": "3.0.0"
