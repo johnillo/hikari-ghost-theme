@@ -2,8 +2,8 @@
 /* ---------------------------------------------------------- */
 
 .gh-head {
-  padding: 2rem 2.25rem;
-  font-size: 1.6rem;
+  padding: 1em 1em;
+  font-size: 1em;
   line-height: 1.3em;
   background: inherit;
 }
@@ -37,7 +37,7 @@
   display: block;
   padding: 10px 0;
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 1.4em;
   line-height: 1.2em;
 }
 
@@ -68,7 +68,7 @@
 
 .gh-head-menu .nav a {
   display: inline-block;
-  padding: 0.35rem 1.1rem;
+  padding: 0.3em 0.5em;
 }
 
 .gh-head-menu .nav-current a {
@@ -261,7 +261,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     user-select: none;
   }
   #gh-head .gh-head-logo {
-    font-size: 2.2rem;
+    font-size: 1.4em;
   }
   #gh-head .gh-head-logo img {
     max-height: 40px;
@@ -274,7 +274,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     text-align: center;
     margin: 0 0 10vh 0;
     font-weight: 300;
-    font-size: 3.6rem;
+    font-size: 1.5em;
     line-height: 1.1em;
   }
   #gh-head .gh-head-menu .nav li {
@@ -326,6 +326,6 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 
 @media (max-width: 600px) {
   #gh-head .gh-head-menu {
-    font-size: 6vmin;
+    font-size: 1em 2em;
   }
 }

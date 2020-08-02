@@ -24,7 +24,7 @@ html,
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background: #fff;
+  background-color: #fefefe;
 }
 
 .gh-main {
@@ -34,15 +34,15 @@ html,
 }
 
 .gh-page {
-  padding: 0 2.25rem;
+  padding: 0 1em;
 }
 
 .gh-article {
-  padding: 4rem 0;
+  padding: 1em 0;
 }
 
 .gh-postfeed {
-  padding: 4rem 0;
+  padding: 1.5em 0 2em;
 }
 
 .gh-container {
@@ -75,7 +75,7 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-card:not(:first-child) {
-  margin: 1.5rem auto 0;
+  margin: 1em auto 0;
 }
 
 .gh-card-link {
@@ -91,7 +91,7 @@ html,
 }
 
 .gh-card-meta {
-  font-size: 1.8rem;
+  font-size: 1em;
   line-height: 1.2em;
   letter-spacing: 0.5px;
   display: table-row;
@@ -120,7 +120,7 @@ html,
 .gh-card-content {
   width: 100%;
   margin: 0 auto;
-  font-size: 1.6rem;
+  font-size: 1em;
 }
 
 .gh-card-content p {
@@ -142,7 +142,7 @@ html,
 
 .gh-page-head {
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -153,16 +153,9 @@ html,
 .gh-page-head > p {
   max-width: 720px;
   margin: 0.3em auto 0;
-  padding: 0 2rem;
-  font-size: 1.6rem;
+  padding: 0;
+  font-size: 1em;
   line-height: 1.4em;
-  opacity: 0.5;
-}
-
-@media (max-width: 700px) {
-  .gh-page-head > p {
-    font-size: 1.6rem;
-  }
 }
 
 
@@ -170,15 +163,14 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-header {
-  padding: 0 0 2rem 0;
+  padding: 0 0 1em 0;
 }
 
 .gh-post-meta {
   display: block;
-  margin: 1rem 0;
-  font-size: 1.4rem;
+  margin: 1em 0;
+  font-size: 1em;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
   opacity: 0.8;
 }
 
@@ -189,7 +181,6 @@ html,
 .gh-feature-image {
   grid-column: main-start / main-end;
   width: 100%;
-  margin: 2em 0 0;
 }
 
 .gh-post-footer {
@@ -211,7 +202,7 @@ html,
 
 .gh-author-meta {
   margin: 1rem 0 0 0;
-  font-size: 1.6rem;
+  font-size: 1em;
 }
 
 .gh-author-links {
@@ -239,7 +230,7 @@ html,
 
 @media (max-width: 700px) {
   .gh-author-meta {
-    font-size: 1.6rem;
+    font-size: 1em;
   }
 }
 

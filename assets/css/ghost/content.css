@@ -22,7 +22,7 @@
   .gh-canvas {
     grid-template-columns:
     [full-start]
-    2rem
+    1em
     [wide-start]
     auto
     [main-start]
@@ -30,7 +30,7 @@
     [main-end]
     auto
     [wide-end]
-    2rem
+    1em
     [full-end]
     ;
   }
@@ -40,7 +40,7 @@
   .gh-canvas {
     grid-template-columns:
     [full-start]
-    2rem
+    1em
     [wide-start]
     0
     [main-start]
@@ -48,7 +48,7 @@
     [main-end]
     0
     [wide-end]
-    2rem
+    1em
     [full-end]
     ;
   }
@@ -75,15 +75,15 @@
 /* ---------------------------------------------------------- */
 
 .gh-content > * + * {
-  margin-top: 2rem;
+  margin-top: 1em;
 }
 
 .gh-content > [id] {
-  margin-top: 3.8rem;
+  margin-top: 1em;
 }
 
 .gh-content > [id] + * {
-  margin-top: 2rem;
+  margin-top: 1em;
 }
 
 .gh-content [id] + .kg-card,
@@ -98,8 +98,8 @@
 .gh-canvas > p {
   font-family: var(--font-sans-serif);
   font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 1.7em;
+  font-size: 1em;
+  line-height: 1.75em;
 }
 
 .gh-content > ul,
@@ -109,11 +109,11 @@
 }
 
 .gh-content hr {
-  margin-top: 2rem;
+  margin-top: 1em;
 }
 
 .gh-content hr + * {
-  margin-top: 2rem !important;
+  margin-top: 1em !important;
 }
 
 .gh-content blockquote {
@@ -129,15 +129,16 @@
   top: 0;
   bottom: 0;
   width: 0.3rem;
-  background: var(--color-primary);
+  background-color: #e10202;
 }
 
 .gh-footer {
-  padding: 5rem 0;
+  padding: 2em 0;
 }
 
 .gh-post-tags {
   margin: 1em 0;
+  font-size: 0.8em;
 }
 
 .gh-post-authors {
@@ -172,7 +173,7 @@
   .gh-canvas ul,
   .gh-canvas dl,
   .gh-canvas p {
-    font-size: 1.8rem;
+    font-size: 1em;
   }
 
   .gh-content blockquote::before {
@@ -185,19 +186,18 @@
 /* ---------------------------------------------------------- */
 
 :not(.kg-card):not([id]) + .kg-card {
-  margin-top: 6vmin;
+  margin-top: 1.25em;
 }
 
 .kg-card + :not(.kg-card):not([id]) {
-  margin-top: 6vmin;
+  margin-top: 1.25em;
 }
 
 .kg-card figcaption {
-  padding: 1.5rem 1.5rem 0;
+  padding: 1em 0;
   text-align: center;
-  color: rgba(0,0,0,0.5);
-  font-weight: 600;
-  font-size: 1.3rem;
+  color: rgba(0,0,0,0.8);
+  font-size: 0.9em;
   line-height: 1.4em;
 }
 
@@ -242,6 +242,10 @@
 
 .kg-gallery-card + .kg-gallery-card {
   margin-top: 0.75em;
+}
+
+.kg-gallery-card.kg-width-wide {
+  grid-column: main-start/main-end;
 }
 
 .kg-gallery-container {
