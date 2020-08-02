@@ -75,7 +75,7 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-card:not(:first-child) {
-  margin: 2.5rem auto 0;
+  margin: 1.5rem auto 0;
 }
 
 .gh-card-link {
@@ -91,26 +91,34 @@ html,
 }
 
 .gh-card-meta {
-  display: block;
   font-size: 1.8rem;
   line-height: 1.2em;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  display: table-row;
 }
 
 .gh-card-meta time {
-  display: inline-block;
-  opacity: .7;
-  margin-right: 0.5em;
+  display: table-cell;
+  white-space: nowrap;
+  opacity: 0.9;
 }
 
-.gh-card-meta:hover {
+.gh-card-meta .gh-card-title {
+  display: table-cell;
+  padding-right: 0.5em;
+  width: 100%;
+}
+
+.gh-card-content:hover .gh-card-meta .gh-card-title {
+  text-decoration: underline;
+}
+
+.gh-card-content:hover .gh-card-meta time {
   text-decoration: underline;
 }
 
 .gh-card-content {
   width: 100%;
-  max-width: 720px;
   margin: 0 auto;
   font-size: 1.6rem;
 }
@@ -167,7 +175,7 @@ html,
 
 .gh-post-meta {
   display: block;
-  margin: 0 0 1rem;
+  margin: 1rem 0;
   font-size: 1.4rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -270,6 +278,10 @@ html,
 
   .gh-paginator .page-number {
     visibility: hidden;
+  }
+
+  .gh-card-meta .gh-card-title {
+    display: block;
   }
 
   .gh-card-meta time {
