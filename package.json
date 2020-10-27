@@ -6,6 +6,9 @@
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg"
     },
+    "engines": {
+        "ghost-api": "v3"
+    },
     "scripts": {
         "dev": "gulp",
         "zip": "gulp zip",

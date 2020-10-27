@@ -75,7 +75,7 @@ html,
 /* ---------------------------------------------------------- */
 
 .gh-card:not(:first-child) {
-  margin: 1em auto 0;
+  margin: 1.75em auto 0;
 }
 
 .gh-card-link {
@@ -92,28 +92,28 @@ html,
 
 .gh-card-meta {
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1.5em;
   letter-spacing: 0.5px;
-  display: table-row;
 }
 
 .gh-card-meta time {
-  display: table-cell;
   white-space: nowrap;
   opacity: 0.9;
 }
 
-.gh-card-meta .gh-card-title {
-  display: table-cell;
-  padding-right: 0.5em;
-  width: 100%;
+.gh-card-title {
+  display: block;
+  font-size: 1.20em;
+  margin-bottom: 0.25em;
 }
 
-.gh-card-content:hover .gh-card-meta .gh-card-title {
-  text-decoration: underline;
+.gh-card-meta time {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
 }
 
-.gh-card-content:hover .gh-card-meta time {
+.gh-card-content:hover .gh-card-title {
   text-decoration: underline;
 }
 
@@ -239,7 +239,7 @@ html,
 
 .gh-paginator {
   width: 100%;
-  max-width: 720px;
+  max-width: 1200px;
   margin: 2em auto;
   text-align: center;
   position: relative;

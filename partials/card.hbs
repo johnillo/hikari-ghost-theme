@@ -1,12 +1,17 @@
 <article class="gh-card {{post_class}} {{#if feature_image}}with-image{{else}}no-image{{/if}}">
   <a class="gh-card-link" href="{{url}}">
     <div class="gh-card-content">
-      <span class="gh-card-meta">
-        <b class="gh-card-title">{{title}}</b>
-        <time datetime="{{date format="YYYY-MM-DD"}}">
-          {{date format="YYYY-MM-DD"}}
+      <div class="gh-card-title">
+        <b>{{title}}</b>
+      </div>
+      <div class="gh-card-meta">
+        <time datetime="{{date format="MMM DD, YYYY"}}">
+          {{date format="MMM DD, YYYY"}}
         </time>
-      </span>
+        <div class="gh-card-caption">
+          {{ excerpt }}
+        </div>
+      </div>
     </div>
   </a>
 </article>
